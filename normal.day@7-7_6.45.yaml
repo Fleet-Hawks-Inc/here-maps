@@ -234,20 +234,20 @@ global:
     [11, 'rgba(0, 0, 20, .01)']
   ]
   place_capital_outline_color: [
-    [0, "rgb(43, 46, 49)"],
-    [5, "rgb(43, 46, 49)"],
-    [7, "rgb(43, 46, 49)"],
-    [8, "rgb(43, 46, 49)"]
+    [0, "rgba(250, 253, 255, .01)"],
+    [5, "rgba(250, 253, 255, .01)"],
+    [7, "rgba(250, 253, 255, .01)"],
+    [8, "rgba(240, 244, 245, .01)"]
   ]
   place_village_font_size: [[6, 0],[7, 10px], [8, 10.5px], [9, 10.5px], [10, 11.5px], [11, 11.5px], [12, 12px], [13, 14px], [14, 15px], [15, 0]]
 
   place_hamlet_color: rgb(120, 120, 120)
   place_hamlet_outline_color: [
-    [0,  'rgb(43, 46, 49)'],
-    [11, 'rgb(43, 46, 49)'],
-    [12, 'rgb(43, 46, 49)'],
-    [13, 'rgb(43, 46, 49)'],
-    [14, 'rgb(43, 46, 49)']
+    [0,  'rgba(240, 244, 245, .78)'],
+    [11, 'rgba(240, 244, 245, .78)'],
+    [12, 'rgba(240, 244, 245, .70)'],
+    [13, 'rgba(240, 244, 245, .70)'],
+    [14, 'rgba(240, 244, 245, .62)']
   ]
 
   #global map colours
@@ -266,12 +266,12 @@ global:
   water_color: rgb (176, 183, 185)
   water_deep_color: rgb(176, 183, 185) #deep water
 
-  water_label_sea_color: rgb(43,46,49)
-  water_label_lake_color: rgb(43,46,49)
-  water_label_lake_outline_color: rgb(43, 46, 49)
+  water_label_sea_color: rgb(77,147,221)
+  water_label_lake_color: rgb(34,105,191)
+  water_label_lake_outline_color: rgba(15, 16, 17,0.01)
   water_label_ocean_color: rgb(15, 16, 17)
-  water_label_bay_color: rgb(43, 46, 49)
-  water_label_bay_outline_color: rgb(179, 189, 204)
+  water_label_bay_color: rgb(34, 105, 191)
+  water_label_bay_outline_color: rgba(204, 230, 255, 0.01)
 
   landuse_default_label_color: [
     [15, 'rgb(95,100,110)'],
@@ -280,10 +280,10 @@ global:
   landuse_default_label_outline_color: rgba(237,245,238,.58)
   landuse_industrial_outline_color: rgba(235,243,250,0.01)
   landuse_label_size: [[12, 10px], [13, 11px], [15, 11px], [16, 12px]]
-  landuse_park_label_color: rgb(179, 189, 204)
+  landuse_park_label_color: rgb(62,120,100)
   landuse_park_label_outline_color: [
-    [11, 'rgb(43,46,49)'],
-    [12, 'rgb(43,46,49)'],
+    [11, 'rgba(215,242,205,.58)'],
+    [12, 'rgba(208,238,195,.58)'],
   ]
   landuse_forest_label_color: rgb(78,133,93)
   landuse_forest_label_outline_color: rgba(230,250,225,.01)
@@ -322,8 +322,8 @@ global:
   landuse_parking_label_color: rgb(7,78,159)
   landuse_military_label_color: rgb(131,129,156)
   landuse_military_label_outline_color: rgba(242,245,252,.58)
-  peak_label_color: rgb(179, 189, 204)
-  peak_label_outline_color: rgb(43,46,49)
+  peak_label_color: rgb(120,107,103)
+  peak_label_outline_color: rgba(250,254,255,.47)
 
   builtup_area_color: [
     [0,  'rgb(42, 43, 45)'],
@@ -359,9 +359,9 @@ global:
     [11, 'rgb(43, 46, 49)'],
     [16, 'rgb(43, 46, 49)']
   ]
-  island_color: rgb(255, 255, 255)
-  island_outline_color: rgb(43, 46, 49)
-  native_reservation_color: rgb(179, 189, 204)
+  island_color: rgb(81,87,4)
+  island_outline_color: rgba(250,253,255, .39)
+  native_reservation_color: rgba (245, 231, 218, 0.78)
   military_color: rgb(43,46,49)
   park_color: rgb (43, 46, 49)
   # applies to allotment, amusement, animal, cemetery, sports complex
@@ -395,7 +395,7 @@ global:
     [16, 'rgb(192,203,208)']
   ]
   university_campus_color: rgb (43, 46, 49)
-  state_boundary_text_color: rgb(179, 189, 204)
+  state_boundary_text_color: rgb(102,102,102)
   country_boundary_color: [
     [4, 'rgb(160, 160, 180)'],
     [5, 'rgb(120, 120, 140)'],
@@ -421,17 +421,17 @@ global:
   ]
   country_disputed_boundary_background_color: [.50, .50, .50, .15]
   region_boundary_color: [ # applies to states and regions
-    [3, 'rgb(179, 189, 204)'],  # 0 <= $zoom < 4
-    [4, 'rgb(179, 189, 204)'],  # 4 <= $zoom < 5
-    [5, 'rgb(179, 189, 204)'],  # 5 <= $zoom < 6
+    [3, 'rgb(160, 157, 175)'],  # 0 <= $zoom < 4
+    [4, 'rgb(160, 157, 175)'],  # 4 <= $zoom < 5
+    [5, 'rgb(160, 157, 175)'],  # 5 <= $zoom < 6
     # 6 <= $zoom < 12 (duplicates avoid interpolation)
-    [6, 'rgb(179, 189, 204)'],
-    [7, 'rgb(179, 189, 204)'],
-    [8, 'rgb(179, 189, 204)'],
-    [9, 'rgb(179, 189, 204)'],
-    [10, 'rgb(179, 189, 204)'],
-    [11, 'rgb(179, 189, 204)'],
-    [12, 'rgb(179, 189, 204)']  # 12 <= $zoom
+    [6, 'rgb(160, 157, 175)'],
+    [7, 'rgb(160, 157, 175)'],
+    [8, 'rgb(160, 157, 175)'],
+    [9, 'rgb(160, 157, 175)'],
+    [10, 'rgb(160, 157, 175)'],
+    [11, 'rgb(160, 157, 175)'],
+    [12, 'rgb(160, 157, 175)']  # 12 <= $zoom
   ]
   region_boundary_outline_color: [ # applies to states and regions
     [4, 'rgba(220, 220, 220, 0.06)'], # 0 <= $zoom < 5
@@ -447,11 +447,11 @@ global:
   ]
   building_color: rgb(42, 46, 49)
   building_outline_color: [
-    [16, 'rgb(204,212,217)'],
-    [17, 'rgb(204,212,217)'],
+    [16, 'rgb(216,224,227)'],
+    [17, 'rgb(208,216,219)'],
     [18, 'rgb(204,212,217)']
   ]
-  building_extrude_color: rgb(43,46,49)
+  building_extrude_color: rgba(43,46,49,1)
   building_label_color: rgb(255,255,255)
   building_label_outline_color: rgb(43,46,49)
 
@@ -705,7 +705,7 @@ layers:
         draw:
           text-blend-order:
             font:
-              fill: rgb(179, 189, 204)
+              fill: global.landuse_forest_label_color
               stroke:
                 color: global.landuse_forest_label_outline_color
       pedestrian:
@@ -766,7 +766,7 @@ layers:
                 size: global.landuse_label_size
                 stroke:
                   color: global.landuse_default_label_outline_color
-                  width: 0px
+                  width: 2px
         sports_centre:
           filter:
             kind: sports_centre
@@ -775,7 +775,7 @@ layers:
               sprite: area-icon-day--sport_complex
               text:
                 font:
-                  fill: rgb(179, 189, 204)
+                  fill: global.landuse_default_label_color
                   stroke:
                     color: global.landuse_default_label_outline_color
         commercial:
@@ -1746,10 +1746,10 @@ layers:
         anchor: center
         font:
           transform: uppercase
-          fill: rgb(179, 189, 204)
+          fill: rgba(255, 118, 120, 0.706)
           stroke:
             color: rgba(255, 255, 255, 0.118)
-            width: 0px
+            width: 1px
           family: global.text_font_family
           weight: normal
           size: 19px
@@ -1777,10 +1777,10 @@ layers:
           anchor: center
           font:
             transform: uppercase
-            fill: [[3, 'rgb(179, 189, 204)'], [4, 'rgb(179, 189, 204)']]
+            fill: [[3, 'rgba(110, 125, 130, 0.8)'], [4, 'rgba(110, 125, 130, 0.66)']]
             stroke:
               color: [[3, 'rgba(250, 253, 255, 0.2)'], [5, 'rgba(250, 253, 255, 0.8)']]
-              width: 0px
+              width: 1px
             size: [[3, 11px], [4, 12px], [5, 15px], [6, 17px], [7, 18px]]
       large_country_label:
         filter:
@@ -2160,14 +2160,14 @@ layers:
           buffer: 1px
           text_wrap: true
           font:
-            fill: rgb(179, 189, 204)
+            fill: rgb(90,90,120)
             size: [[11, 11px], [12, 12.5px], [13, 14.5px], [14, 15.5px]]
             stroke:
               color: [
-                [13, 'rgb(179, 189, 204)'],
-                [14, 'rgb(179, 189, 204)'],
+                [13, 'rgba(240, 245, 247, .70)'],
+                [14, 'rgba(237, 242, 244, .70)'],
               ]
-              width: 0px
+              width: 3px
   island_label:
     data: {source: omv, layer: earth}
     filter:
