@@ -136,12 +136,12 @@ global:
     [13, 'rgb(179, 189, 204)']
   ]
   place_class1_outline_color: [
-    [0, 'rgb(179, 189, 204)'],
-    [4, 'rgb(179, 189, 204)'],
-    [5, 'rgb(179, 189, 204)'],
-    [6, 'rgb(179, 189, 204)'],
-    [7, 'rgb(179, 189, 204)'],
-    [8, 'rgb(179, 189, 204)']
+    [0, 'rgb(43, 46, 49)'],
+    [4, 'rgb(43, 46, 49)'],
+    [5, 'rgb(43, 46, 49)'],
+    [6, 'rgb(43, 46, 49)'],
+    [7, 'rgb(43, 46, 49)'],
+    [8, 'rgb(43, 46, 49)']
   ]
   place_class2_color: [
     [0, 'rgb(179, 189, 204)'],
@@ -155,14 +155,14 @@ global:
     [14, 'rgb(179, 189, 204)']
   ]
   place_class2_outline_color: [
-    [0,  'rgb(179, 189, 204)'],
-    [4,  'rgb(179, 189, 204)'],
-    [5,  'rgb(179, 189, 204)'],
-    [6,  'rgb(179, 189, 204)'],
-    [7,  'rgb(179, 189, 204)'],
-    [8,  'rgb(179, 189, 204)'],
-    [11, 'rgb(179, 189, 204)'],
-    [12, 'rgb(179, 189, 204)']
+    [0,  'rgb(43, 46, 49)'],
+    [4,  'rgb(43, 46, 49)'],
+    [5,  'rgb(43, 46, 49)'],
+    [6,  'rgb(43, 46, 49)'],
+    [7,  'rgb(43, 46, 49)'],
+    [8,  'rgb(43, 46, 49)'],
+    [11, 'rgb(43, 46, 49)'],
+    [12, 'rgb(43, 46, 49)']
   ]
   place_class3_color: [
     [0, 'rgb(179, 189, 204)'],
@@ -228,10 +228,10 @@ global:
     [14, 'rgb(43, 46, 49)']
   ]
   place_capital_color: [
-    [0, 'rgb(50, 50, 50)'],
-    [7, 'rgb(20, 20, 20)'],
-    [10, 'rgba(0, 0, 20, .01)'],
-    [11, 'rgba(0, 0, 20, .01)']
+    [0, 'rgb(179, 189, 204)'],
+    [7, 'rgb(179, 189, 204)'],
+    [10, 'rgb(179, 189, 204)'],
+    [11, 'rgb(179, 189, 204)']
   ]
   place_capital_outline_color: [
     [0, "rgb(43, 46, 49)"],
@@ -241,7 +241,7 @@ global:
   ]
   place_village_font_size: [[6, 0],[7, 10px], [8, 10.5px], [9, 10.5px], [10, 11.5px], [11, 11.5px], [12, 12px], [13, 14px], [14, 15px], [15, 0]]
 
-  place_hamlet_color: rgb(120, 120, 120)
+  place_hamlet_color: rgb(179, 189, 204)
   place_hamlet_outline_color: [
     [0,  'rgb(43, 46, 49)'],
     [11, 'rgb(43, 46, 49)'],
@@ -251,7 +251,7 @@ global:
   ]
 
   #global map colours
-  land_color: rgb (42, 43, 45)
+  land_color: rgb (43, 46, 49)
   beach_color: rgb (43, 46, 49)
   glacier_color: rgb (232, 242, 255)
   woodland_color: rgb (186, 247, 176)
@@ -274,11 +274,11 @@ global:
   water_label_bay_outline_color: rgb(179, 189, 204)
 
   landuse_default_label_color: [
-    [15, 'rgb(95,100,110)'],
-    [16, 'rgb(105,110,120)']
+    [15, 'rgb(179, 189, 204)'],
+    [16, 'rgb(179, 189, 204)']
   ]
-  landuse_default_label_outline_color: rgba(237,245,238,.58)
-  landuse_industrial_outline_color: rgba(235,243,250,0.01)
+  landuse_default_label_outline_color: rgb(179, 189, 204)
+  landuse_industrial_outline_color: rgb(43,46,49)
   landuse_label_size: [[12, 10px], [13, 11px], [15, 11px], [16, 12px]]
   landuse_park_label_color: rgb(179, 189, 204)
   landuse_park_label_outline_color: [
@@ -286,9 +286,9 @@ global:
     [12, 'rgb(43,46,49)'],
   ]
   landuse_forest_label_color: rgb(78,133,93)
-  landuse_forest_label_outline_color: rgba(230,250,225,.01)
+  landuse_forest_label_outline_color: rgb(43,46,49)
   # used for industrial, railway, parking, commercial, zoo, aerodrome, etc.
-  landuse_gray_label_color: rgb(70,90,110)
+  landuse_gray_label_color: rgb(179, 189, 204)
   landuse_gray_label_outline_color: [
     [13, 'rgba(235,243,250,.58)'],
     [14, 'rgba(225,233,240,.58)']
@@ -297,43 +297,43 @@ global:
     [15, "rgb(95,100,110)"],
     [16, "rgb(105,110,120)"]
   ]
-  landuse_pedestrian_label_outline_color: rgba(235,243,250,.58)
+  landuse_pedestrian_label_outline_color: rgb(43,46,49)
   landuse_hospital_label_color: [
     [15, 'rgb(115,100,110)'],
     [16, 'rgb(125,105,115)']
   ]
-  landuse_industrial_label_color: rgb(70,90,110)
-  landuse_hospital_label_outline_color: rgba(245,237,240,.58)
-  landuse_golf_course_label_color: rgb(62,120,110)
+  landuse_industrial_label_color: rgb(179, 189, 204)
+  landuse_hospital_label_outline_color: rgb(43,46,49)
+  landuse_golf_course_label_color: rgb(179, 189, 204)
   landuse_golf_course_label_outline_color: [
-    [11, 'rgba(215,242,205,.58)'],
-    [12, 'rgba(194,237,196,.58)']
+    [11, 'rgb(43,46,49)'],
+    [12, 'rgb(43,46,49)']
   ]
-  landuse_beach_label_color: rgb(115,114,94)
-  landuse_beach_label_outline_color: rgba(250,240,170,.58)
+  landuse_beach_label_color: rgb(179, 189, 204)
+  landuse_beach_label_outline_color: rgb(43,46,49)
   landuse_university_label_color: [
-    [15, 'rgb(95,100,110)'],
-    [16, 'rgb(105,110,120)']
+    [15, 'rgb(179,189,204)'],
+    [16, 'rgb(179,189,204)']
   ]
   landuse_university_label_outline_color: [
-    [15, 'rgba(240,237,232,.58)'],
-    [16, 'rgba(245,242,237,.58)']
+    [15, 'rgb(43,46,49)'],
+    [16, 'rgb(43,46,49)']
   ]
-  landuse_parking_label_color: rgb(7,78,159)
-  landuse_military_label_color: rgb(131,129,156)
-  landuse_military_label_outline_color: rgba(242,245,252,.58)
+  landuse_parking_label_color: rgb(179, 189, 204)
+  landuse_military_label_color: rgb(179,189,204)
+  landuse_military_label_outline_color: rgb(43,46,49)
   peak_label_color: rgb(179, 189, 204)
   peak_label_outline_color: rgb(43,46,49)
 
   builtup_area_color: [
-    [0,  'rgb(42, 43, 45)'],
-    [10, 'rgb(42, 43, 45)'],
-    [13, 'rgb(42, 43, 45)'],
-    [14, 'rgb(42, 43, 45)'],
-    [15, 'rgb(42, 43, 45)'],
-    [16, 'rgb(42, 43, 45)']
+    [0,  'rgb (43, 46, 49)'],
+    [10, 'rgb (43, 46, 49)'],
+    [13, 'rgb (43, 46, 49)'],
+    [14, 'rgb (43, 46, 49)'],
+    [15, 'rgb (43, 46, 49)'],
+    [16, 'rgb (43, 46, 49)']
   ]
-  builtup_area_color_border_color: 'rgba(0,0,0,1)'
+  builtup_area_color_border_color: 'rgb(131,129,156)'
   golf_course_color: [
     [11, 'rgb(43,46,49)'],
     [12, 'rgb(43,46,49)'],
@@ -342,14 +342,14 @@ global:
     [15, 'rgb(43,46,49)'],
     [16, 'rgb(43,46,49)']
   ]
-  hospital_color: rgb (187, 186, 191)
+  hospital_color: rgb (43, 46, 49)
   # applies to airport, harbor, industrial, rail yard, shopping complex
   industrial_color: [
-    [0,  'rgb(228, 234, 240)'],
-    [11, 'rgb(225, 230, 234)'],
-    [14, 'rgb(218, 225, 228)'],
-    [15, 'rgb(211, 220, 222)'],
-    [16, 'rgb(206, 216, 220)']
+    [0,  'rgb(43,46,49)'],
+    [11, 'rgb(43,46,49)'],
+    [14, 'rgb(43,46,49)'],
+    [15, 'rgb(43,46,49)'],
+    [16, 'rgb(43,46,49)']
   ]
   national_park_color: [
     [0 , 'rgb(43, 46, 49)'],
@@ -457,11 +457,11 @@ global:
 
   ######################################  global road values  ######################################
   highway_fill: [
-    [9, 'rgb(255,255,255)'],
-    [10, 'rgb(255,255,255)'],
-    [11, 'rgb(255,255,255)'],
-    [12, 'rgb(255,255,255)'],
-    [13, 'rgb(255,255,255)']
+    [9, 'rgb(34,145,34)'],
+    [10, 'rgb(34,145,34)'],
+    [11, 'rgb(34,145,34)'],
+    [12, 'rgb(34,145,34)'],
+    [13, 'rgb(34,145,34)']
   ]
   highway_tunnel_fill: rgb(204,169,183)
   highway_tunnel_center_line: rgb(204, 129, 160)
@@ -535,18 +535,18 @@ global:
   ferry_label_outline_color: rgb(153,206,255)
 
   #global railway colors
-  rail_dash_background_color: rgb(160, 160, 160)
+  rail_dash_background_color: rgb(208, 82, 23)
   rail_outline_color: rgb(160, 160, 160)
   rail_dash_color: [
-    [10, 'rgb(220, 220, 220)'],
-    [13, 'rgb(255, 255, 255)'],
-    [16, 'rgb(250, 250, 250)']
+    [10, 'rgb(179, 189, 204)'],
+    [13, 'rgb(179, 189, 204)'],
+    [16, 'rgb(179, 189, 204)']
   ]
 
   #global label colours
   text_fill: '#0F1621'
   text_outline: global.land_color
-  text_fill_address: rgb(122,147,153)
+  text_fill_address: rgb(179, 189, 204)
 
 textures:
   icon_library:
@@ -689,7 +689,7 @@ layers:
             size: global.landuse_label_size
             stroke:
               color: global.landuse_default_label_outline_color
-              width: 1px
+              width: 0px
       park:
         filter:
           kind: park
@@ -734,7 +734,7 @@ layers:
             font:
               fill: global.landuse_military_label_color
               stroke:
-                color: global.landuse_military_label_outline_color
+                color: rgb(43, 46, 49)
       other:
         filter:
           kind: [railway, parking]
@@ -830,9 +830,9 @@ layers:
               sprite: area-icon-day--transport_airport
               text:
                 font:
-                  fill: global.landuse_gray_label_color
+                  fill: rgb(179,189,204)
                   stroke:
-                    color: global.landuse_gray_label_outline_color
+                    color: rgb(43,46,49)
         golf:
           filter:
             kind: golf_course
@@ -1109,7 +1109,7 @@ layers:
           width: 1px
           outline:
             color: global.region_boundary_outline_color
-            width: [[0, '0px'], [3, '0px'], [9, '1px']]
+            width: [[0, '0px'], [3, '0px'], [9, '0px']]
         text-blend-order:
           font:
             fill: global.state_boundary_text_color
