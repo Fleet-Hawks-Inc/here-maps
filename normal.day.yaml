@@ -345,11 +345,11 @@ global:
   hospital_color: rgb (43, 46, 49)
   # applies to airport, harbor, industrial, rail yard, shopping complex
   industrial_color: [
-    [0,  'rgb(43,46,49)'],
-    [11, 'rgb(43,46,49)'],
-    [14, 'rgb(43,46,49)'],
-    [15, 'rgb(43,46,49)'],
-    [16, 'rgb(43,46,49)']
+    [0,  'rgb(228, 234, 240)'],
+    [11, 'rgb(225, 230, 234)'],
+    [14, 'rgb(218, 225, 228)'],
+    [15, 'rgb(211, 220, 222)'],
+    [16, 'rgb(206, 216, 220)']
   ]
   national_park_color: [
     [0 , 'rgb(43, 46, 49)'],
@@ -457,15 +457,15 @@ global:
 
   ######################################  global road values  ######################################
   highway_fill: [
-    [9, 'rgb(34,145,34)'],
-    [10, 'rgb(34,145,34)'],
-    [11, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)'],
-    [13, 'rgb(34,145,34)']
+    [9, 'rgb(34,4,34)'],
+    [10, 'rgb(34,4,34)'],
+    [11, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)'],
+    [13, 'rgb(34,4,34)']
   ]
   highway_tunnel_fill: rgb(204,169,183)
   highway_tunnel_center_line: rgb(204, 129, 160)
-  highway_outline: rgb(34,145,34)
+  highway_outline: rgb(34,4,34)
   highway_centerline_fill: [
     [11, 'rgb(43,46,49)'],
     [12, 'rgb(43,46,49)'],
@@ -476,30 +476,30 @@ global:
   highway_link_width: [[5, 1px], [12, 1px], [13, 2px], [14, 3px], [15, 4px], [16, 5px], [17, 7px], [18, 18px], [19, 22px], [20, 35px]]
   highway_trunk_width: [[5, 1px], [8, 1px], [9, 2px], [10, 2px], [12, 2.5px], [13, 3px], [14, 5px], [15, 7px], [16, 12px], [17, 15px], [18, 30px], [19, 37px], [20, 64px]]
   major_road_fill: [
-    [11, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)'],
-    [13, 'rgb(34,145,34)']
+    [11, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)'],
+    [13, 'rgb(34,4,34)']
   ]
   major_road_tunnel_fill: rgb(43,177,169)
   major_road_link_width: [[13, 2px], [14, 3px], [15, 4px], [16, 5px], [17, 7px], [18, 18px], [19, 23px], [20, 35px]]
   major_road_outline: [
-    [10, 'rgb(34,145,34)'],
-    [11, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)']
+    [10, 'rgb(34,4,34)'],
+    [11, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)']
   ]
   major_road_width: [[8, 1px], [9, 2px], [10, 3px], [12, 3.5px], [13, 4px], [14, 6px], [15, 7px], [16, 11px], [17, 15px], [18, 34px], [19, 38px], [20, 62px]]
   major_road_secondary_fill: [
-    [10, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)'],
-    [13, 'rgb(34,145,34)'],
+    [10, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)'],
+    [13, 'rgb(34,4,34)'],
   ]
   major_road_secondary_tunnel_fill: rgb(204,201,169)
   major_road_secondary_outline: rgb(191,157,134)
   major_road_secondary_width: [[10, 1px], [12, 2px], [13, 3.5px], [14, 5px], [15, 7px], [16, 11px], [17, 12px], [18, 30px], [19, 34px], [20, 54px]]
   major_road_secondary_link_width: [[13, 1px], [16, 4px], [17, 5px], [18, 10px], [19, 20px], [20, 30px]]
   major_road_tertiary_fill: [
-    [11, 'rgb(34, 145, 34)'],
-    [12, 'rgb(34, 145, 34)']
+    [11, 'rgb(34, 4, 34)'],
+    [12, 'rgb(34, 4, 34)']
   ]
   major_road_tertiary_tunnel_fill: rgb(204,200,184)
   major_road_tertiary_outline: rgb(165,164,131)
