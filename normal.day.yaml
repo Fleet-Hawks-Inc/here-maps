@@ -241,7 +241,7 @@ global:
   ]
   place_village_font_size: [[6, 0],[7, 10px], [8, 10.5px], [9, 10.5px], [10, 11.5px], [11, 11.5px], [12, 12px], [13, 14px], [14, 15px], [15, 0]]
 
-  place_hamlet_color: rgb(120, 120, 120)
+  place_hamlet_color: rgb(179, 189, 204)
   place_hamlet_outline_color: [
     [0,  'rgb(43, 46, 49)'],
     [11, 'rgb(43, 46, 49)'],
@@ -304,12 +304,12 @@ global:
   ]
   landuse_industrial_label_color: rgb(179, 189, 204)
   landuse_hospital_label_outline_color: rgb(43,46,49)
-  landuse_golf_course_label_color: rgb(62,120,110)
+  landuse_golf_course_label_color: rgb(179, 189, 204)
   landuse_golf_course_label_outline_color: [
-    [11, 'rgba(215,242,205,.58)'],
-    [12, 'rgba(194,237,196,.58)']
+    [11, 'rgb(43,46,49)'],
+    [12, 'rgb(43,46,49)']
   ]
-  landuse_beach_label_color: rgb(115,114,94)
+  landuse_beach_label_color: rgb(179, 189, 204)
   landuse_beach_label_outline_color: rgb(43,46,49)
   landuse_university_label_color: [
     [15, 'rgb(179,189,204)'],
@@ -457,15 +457,15 @@ global:
 
   ######################################  global road values  ######################################
   highway_fill: [
-    [9, 'rgb(34,145,34)'],
-    [10, 'rgb(34,145,34)'],
-    [11, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)'],
-    [13, 'rgb(34,145,34)']
+    [9, 'rgb(34,4,34)'],
+    [10, 'rgb(34,4,34)'],
+    [11, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)'],
+    [13, 'rgb(34,4,34)']
   ]
   highway_tunnel_fill: rgb(204,169,183)
   highway_tunnel_center_line: rgb(204, 129, 160)
-  highway_outline: rgb(34,145,34)
+  highway_outline: rgb(34,4,34)
   highway_centerline_fill: [
     [11, 'rgb(43,46,49)'],
     [12, 'rgb(43,46,49)'],
@@ -476,30 +476,30 @@ global:
   highway_link_width: [[5, 1px], [12, 1px], [13, 2px], [14, 3px], [15, 4px], [16, 5px], [17, 7px], [18, 18px], [19, 22px], [20, 35px]]
   highway_trunk_width: [[5, 1px], [8, 1px], [9, 2px], [10, 2px], [12, 2.5px], [13, 3px], [14, 5px], [15, 7px], [16, 12px], [17, 15px], [18, 30px], [19, 37px], [20, 64px]]
   major_road_fill: [
-    [11, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)'],
-    [13, 'rgb(34,145,34)']
+    [11, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)'],
+    [13, 'rgb(34,4,34)']
   ]
   major_road_tunnel_fill: rgb(43,177,169)
   major_road_link_width: [[13, 2px], [14, 3px], [15, 4px], [16, 5px], [17, 7px], [18, 18px], [19, 23px], [20, 35px]]
   major_road_outline: [
-    [10, 'rgb(34,145,34)'],
-    [11, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)']
+    [10, 'rgb(34,4,34)'],
+    [11, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)']
   ]
   major_road_width: [[8, 1px], [9, 2px], [10, 3px], [12, 3.5px], [13, 4px], [14, 6px], [15, 7px], [16, 11px], [17, 15px], [18, 34px], [19, 38px], [20, 62px]]
   major_road_secondary_fill: [
-    [10, 'rgb(34,145,34)'],
-    [12, 'rgb(34,145,34)'],
-    [13, 'rgb(34,145,34)'],
+    [10, 'rgb(34,4,34)'],
+    [12, 'rgb(34,4,34)'],
+    [13, 'rgb(34,4,34)'],
   ]
   major_road_secondary_tunnel_fill: rgb(204,201,169)
   major_road_secondary_outline: rgb(191,157,134)
   major_road_secondary_width: [[10, 1px], [12, 2px], [13, 3.5px], [14, 5px], [15, 7px], [16, 11px], [17, 12px], [18, 30px], [19, 34px], [20, 54px]]
   major_road_secondary_link_width: [[13, 1px], [16, 4px], [17, 5px], [18, 10px], [19, 20px], [20, 30px]]
   major_road_tertiary_fill: [
-    [11, 'rgb(34, 145, 34)'],
-    [12, 'rgb(34, 145, 34)']
+    [11, 'rgb(34, 4, 34)'],
+    [12, 'rgb(34, 4, 34)']
   ]
   major_road_tertiary_tunnel_fill: rgb(204,200,184)
   major_road_tertiary_outline: rgb(165,164,131)
@@ -535,18 +535,18 @@ global:
   ferry_label_outline_color: rgb(153,206,255)
 
   #global railway colors
-  rail_dash_background_color: rgb(160, 160, 160)
+  rail_dash_background_color: rgb(208, 82, 23)
   rail_outline_color: rgb(160, 160, 160)
   rail_dash_color: [
-    [10, 'rgb(220, 220, 220)'],
-    [13, 'rgb(255, 255, 255)'],
-    [16, 'rgb(250, 250, 250)']
+    [10, 'rgb(179, 189, 204)'],
+    [13, 'rgb(179, 189, 204)'],
+    [16, 'rgb(179, 189, 204)']
   ]
 
   #global label colours
   text_fill: '#0F1621'
   text_outline: global.land_color
-  text_fill_address: rgb(122,147,153)
+  text_fill_address: rgb(179, 189, 204)
 
 textures:
   icon_library:
@@ -1109,7 +1109,7 @@ layers:
           width: 1px
           outline:
             color: global.region_boundary_outline_color
-            width: [[0, '0px'], [3, '0px'], [9, '1px']]
+            width: [[0, '0px'], [3, '0px'], [9, '0px']]
         text-blend-order:
           font:
             fill: global.state_boundary_text_color
