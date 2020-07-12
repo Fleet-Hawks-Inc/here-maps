@@ -18,10 +18,10 @@ global:
 
   text_visible_admin: true
   icon_visible_populated_places: false
-  text_visible_populated_places: true
+  text_visible_populated_places: false
   text_visible_neighbourhoods: false
   text_visible_water_labels: true
-  text_visible_building: true
+  text_visible_building: false
   text_visible_address: true
   text_visible_roads: true
   text_visible_ferry: true
