@@ -16,7 +16,7 @@ scene:
 global:
   text_font_family: FiraGO
 
-  text_visible_admin: true
+  text_visible_admin: false
   icon_visible_populated_places: false
   text_visible_populated_places: false
   text_visible_neighbourhoods: false
