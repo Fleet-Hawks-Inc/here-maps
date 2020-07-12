@@ -118,12 +118,6 @@ global:
     }
   feature_priority: function() { return feature.priority; }
 
-  population:
-    class1-1m-up: {min: 1000000}
-    class2-250k-1m: { min: 250000, max: 1000000 }
-    class3-100k-250k: { min: 100000, max: 250000 }
-    class4-30k-100k: { min: 30000, max: 100000 }
-    class5-until-30k: { max: 30000 }
 
   place_class1_color: [
     [0, 'rgb(179, 189, 204)'],
